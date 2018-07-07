@@ -75,12 +75,10 @@ upgrade:
 	@brew upgrade git terraform  || true
 
 ## Generate Variables & update variable files
-var:
+update:
 	@php ./gt.php
 	@php ./ct.php
 	@make fmt
-fmt:
-	@terraform fmt
 
 ################################################################################
 # Help
