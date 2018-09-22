@@ -14,7 +14,7 @@ export AWS_SECRET_ACCESS_KEY=8s8v1lT*******************
 export AWS_DEFAULT_REGION=us-east-1
 ```
 
-#Commands
+### Commands
 ```
 $ terraform plan                        # plan
 $ terraform apply                       # shortcut for plan & apply - avoid this in production
